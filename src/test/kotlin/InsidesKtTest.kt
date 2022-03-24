@@ -16,7 +16,7 @@ class InsidesKtTest {
             paySystem = paySystem
         )
 
-        assertEquals(0, result)
+        assertEquals(1, result)
     }
 
     @Test
@@ -31,7 +31,7 @@ class InsidesKtTest {
             paySystem = paySystem
         )
 
-        assertEquals(50000, result)
+        assertEquals(1, result)
     }
 
     @Test
@@ -46,7 +46,7 @@ class InsidesKtTest {
             paySystem = paySystem
         )
 
-        assertEquals(0, result)
+        assertEquals(1, result)
     }
 
     @Test
@@ -61,7 +61,7 @@ class InsidesKtTest {
             paySystem = paySystem
         )
 
-        assertEquals(50000, result)
+        assertEquals(1, result)
     }
 
     @Test
@@ -76,7 +76,7 @@ class InsidesKtTest {
             paySystem = paySystem
         )
 
-        assertEquals(3500, result)
+        assertEquals(1, result)
     }
 
     @Test
@@ -91,7 +91,7 @@ class InsidesKtTest {
             paySystem = paySystem
         )
 
-        assertEquals(60000, result)
+        assertEquals(1, result)
     }
 
     @Test
@@ -106,7 +106,7 @@ class InsidesKtTest {
             paySystem = paySystem
         )
 
-        assertEquals(3500, result)
+        assertEquals(1, result)
     }
 
     @Test
@@ -121,7 +121,7 @@ class InsidesKtTest {
             paySystem = paySystem
         )
 
-        assertEquals(60000, result)
+        assertEquals(1, result)
     }
 
     @Test
@@ -136,6 +136,6 @@ class InsidesKtTest {
             paySystem = paySystem
         )
 
-        assertEquals(0, result)
+        assertEquals(1, result)
     }
 }
